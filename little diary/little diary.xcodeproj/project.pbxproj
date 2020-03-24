@@ -171,18 +171,18 @@
 		152D5CC9242A565F00C7EEAA /* third */ = {
 			isa = PBXGroup;
 			children = (
-				152D5CCA242A565F00C7EEAA /* LHEditViewController.m */,
-				152D5CCB242A565F00C7EEAA /* LHListCell.m */,
-				152D5CCC242A565F00C7EEAA /* XSIndexModel.m */,
-				152D5CCD242A565F00C7EEAA /* Gategory */,
-				152D5CD6242A565F00C7EEAA /* ViewController.m */,
-				152D5CD7242A565F00C7EEAA /* LHListCell.h */,
-				152D5CD8242A565F00C7EEAA /* LHEditViewController.h */,
-				152D5CD9242A565F00C7EEAA /* XSIndexModel.h */,
 				152D5CDA242A565F00C7EEAA /* rich */,
 				152D5CE1242A565F00C7EEAA /* lib */,
 				152D5CE4242A565F00C7EEAA /* fmdb */,
+				152D5CCD242A565F00C7EEAA /* Gategory */,
+				152D5CD8242A565F00C7EEAA /* LHEditViewController.h */,
+				152D5CCA242A565F00C7EEAA /* LHEditViewController.m */,
+				152D5CD7242A565F00C7EEAA /* LHListCell.h */,
+				152D5CCB242A565F00C7EEAA /* LHListCell.m */,
 				152D5CF0242A565F00C7EEAA /* ViewController.h */,
+				152D5CD6242A565F00C7EEAA /* ViewController.m */,
+				152D5CD9242A565F00C7EEAA /* XSIndexModel.h */,
+				152D5CCC242A565F00C7EEAA /* XSIndexModel.m */,
 			);
 			path = third;
 			sourceTree = "<group>";
@@ -190,14 +190,14 @@
 		152D5CCD242A565F00C7EEAA /* Gategory */ = {
 			isa = PBXGroup;
 			children = (
-				152D5CCE242A565F00C7EEAA /* UIColor+HEX.m */,
-				152D5CCF242A565F00C7EEAA /* UIView+Extension.h */,
-				152D5CD0242A565F00C7EEAA /* NSString+JSON.m */,
 				152D5CD1242A565F00C7EEAA /* NSAttributedString+Rich.h */,
-				152D5CD2242A565F00C7EEAA /* UIColor+HEX.h */,
-				152D5CD3242A565F00C7EEAA /* UIView+Extension.m */,
 				152D5CD4242A565F00C7EEAA /* NSAttributedString+Rich.m */,
 				152D5CD5242A565F00C7EEAA /* NSString+JSON.h */,
+				152D5CD0242A565F00C7EEAA /* NSString+JSON.m */,
+				152D5CD2242A565F00C7EEAA /* UIColor+HEX.h */,
+				152D5CCE242A565F00C7EEAA /* UIColor+HEX.m */,
+				152D5CCF242A565F00C7EEAA /* UIView+Extension.h */,
+				152D5CD3242A565F00C7EEAA /* UIView+Extension.m */,
 			);
 			path = Gategory;
 			sourceTree = "<group>";
@@ -205,12 +205,12 @@
 		152D5CDA242A565F00C7EEAA /* rich */ = {
 			isa = PBXGroup;
 			children = (
-				152D5CDB242A565F00C7EEAA /* XDRichTextView.m */,
+				152D5CDE242A565F00C7EEAA /* XDEditTextTool.h */,
 				152D5CDC242A565F00C7EEAA /* XDEditTextTool.m */,
 				152D5CDD242A565F00C7EEAA /* XDRichTextModel.h */,
-				152D5CDE242A565F00C7EEAA /* XDEditTextTool.h */,
-				152D5CDF242A565F00C7EEAA /* XDRichTextView.h */,
 				152D5CE0242A565F00C7EEAA /* XDRichTextModel.m */,
+				152D5CDF242A565F00C7EEAA /* XDRichTextView.h */,
+				152D5CDB242A565F00C7EEAA /* XDRichTextView.m */,
 			);
 			path = rich;
 			sourceTree = "<group>";
@@ -218,8 +218,8 @@
 		152D5CE1242A565F00C7EEAA /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				152D5CE2242A565F00C7EEAA /* SqliteUtil.m */,
 				152D5CE3242A565F00C7EEAA /* SqliteUtil.h */,
+				152D5CE2242A565F00C7EEAA /* SqliteUtil.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -228,15 +228,15 @@
 			isa = PBXGroup;
 			children = (
 				152D5CE5242A565F00C7EEAA /* FMDatabase.h */,
-				152D5CE6242A565F00C7EEAA /* FMDatabaseQueue.m */,
-				152D5CE7242A565F00C7EEAA /* FMResultSet.h */,
-				152D5CE8242A565F00C7EEAA /* FMDatabasePool.h */,
-				152D5CE9242A565F00C7EEAA /* FMDatabaseAdditions.m */,
 				152D5CEA242A565F00C7EEAA /* FMDatabase.m */,
-				152D5CEB242A565F00C7EEAA /* FMDatabaseQueue.h */,
-				152D5CEC242A565F00C7EEAA /* FMDB.h */,
 				152D5CED242A565F00C7EEAA /* FMDatabaseAdditions.h */,
+				152D5CE9242A565F00C7EEAA /* FMDatabaseAdditions.m */,
+				152D5CE8242A565F00C7EEAA /* FMDatabasePool.h */,
 				152D5CEE242A565F00C7EEAA /* FMDatabasePool.m */,
+				152D5CEB242A565F00C7EEAA /* FMDatabaseQueue.h */,
+				152D5CE6242A565F00C7EEAA /* FMDatabaseQueue.m */,
+				152D5CEC242A565F00C7EEAA /* FMDB.h */,
+				152D5CE7242A565F00C7EEAA /* FMResultSet.h */,
 				152D5CEF242A565F00C7EEAA /* FMResultSet.m */,
 			);
 			path = fmdb;
